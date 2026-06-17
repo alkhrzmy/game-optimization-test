@@ -1,0 +1,25 @@
+# Secrets - NEVER commit
+.env
+*.env
+!*.env.example
+
+# Eklipse-provided dataset (sensitive user data - keep out of public repo)
+data/
+
+# Generated / local
+.venv/
+**/__pycache__/
+*.pyc
+task3/eklipse.db
+
+# Tooling / editor noise
+.rtk/
+**/.DS_Store
+**/__MACOSX/
+# Office temp lock files
+~$*
+**/~$*
+
+# Stray scratch files
+/funnel_query.sql
+/metrics_2_5.sql
