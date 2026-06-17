@@ -1,6 +1,6 @@
-# Eklipse — AI Data Optimization Test
+# hr — AI Data Optimization Test
 
-My submission for the Eklipse AI Data Optimization assessment, covering all three tasks.
+My submission for the hr AI Data Optimization assessment, covering all three tasks.
 
 ## Task 1 — Game Understanding (`task1/`)
 Automated gameplay clip-detection design for **Garena Delta Force** (Tactical FPS).
@@ -21,14 +21,14 @@ Google AI Studio (Gemini) API.
 > Set up your own key: copy `.env.example` → `.env` and add `GEMINI_API_KEY`.
 
 ## Task 3 — Data Analysis (`task3/`)
-5 business metrics for Eklipse, extracted with SQL (each query joins ≥2 tables).
+5 business metrics for hr, extracted with SQL (each query joins ≥2 tables).
 - `sql/*.sql` — the 5 queries
 - `build_database.py`, `run_queries.py` — build SQLite DB + run queries
-- `Task3_Data_Analysis_Eklipse.pptx` — 9-slide deck
+- `Task3_Data_Analysis_hr.pptx` — 9-slide deck
 - `Task3_submission.zip` — deck + SQL files
 - `NOTES_Task3.md` — metrics summary
 
-> The Eklipse-provided dataset (`data/`) is intentionally **not** committed.
+> The hr-provided dataset (`data/`) is intentionally **not** committed.
 
 ## Environment
 Python 3.12 — `pip install -r task2/requirements.txt` (pandas, google-genai, python-dotenv, python-pptx, pypdf).
